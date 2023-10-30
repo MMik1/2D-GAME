@@ -13,9 +13,9 @@ public class BallMovement : MonoBehaviour
 
     private int hitCounter;
     private Rigidbody2D rb;
-    private int playerPoints = 0; // Add this line
-    private int aiPoints = 0; // Add this line
-    private bool gameEnded = false; // Add this line
+    private int playerPoints = 0; 
+    private int aiPoints = 0; 
+    private bool gameEnded = false; 
 
     void Start()
     {
@@ -30,7 +30,7 @@ public class BallMovement : MonoBehaviour
         }
         else
         {
-            // Freeze the ball by setting its velocity to zero
+            
             rb.velocity = Vector2.zero;
         }
     }
